@@ -26,13 +26,13 @@ header{
     padding-left: 15px;
     padding-right: 15px;
 }
-
+/*
 header > a > img {
     padding-left: 50px;
     padding-top: 0px;
-    width: 150%;
+    width: 100%;
     height: auto;
-}
+}*/
 
 header > nav {
     padding-top: 5px;
@@ -44,8 +44,19 @@ header > nav > ul {
     align-items: center;
     list-style-type: none;
     justify-content: flex-end;
-    padding-right: 50px;
-    gap: 25px;
+    padding-bottom: 15px;
+    /*padding-right: 50px;*/
+    gap: 50px;
+}
+
+.header-logo-link {
+    padding-left: 50px;
+    padding-top: 10px;
+    justify-content: flex-start;
+}
+
+.header-logo {
+    max-width: 200%;
 }
 
 header > nav > ul > li > a {
