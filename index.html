@@ -10,18 +10,17 @@
 </head>
 <body>
     <header>
-        <a href="#" class="header-logo"> <img src="assets/icon.png" width="50" height="50" alt=""> </a>
+        <a href="#" class="header-logo" onclick="document.getElementById('community-page').style.display='none'; document.getElementById('main-page').style.display='block';"> <img src="assets/icon.png" width="50" height="50" alt=""> </a>
         <nav>
             <ul>
-                <li> <a href="#">Community</a> </li>
-                <li> <a href="https://github.com/TiM-SyStEm/Special-Key-SPS/releases">Try  Special Key</a> </li>
-                <li> <a href="https://github.com/TiM-SyStEm/Special-Key-SPS/wiki">Docs</a> </li>
+                <li> <a href="#" onclick="document.getElementById('community-page').style.display='block'; document.getElementById('main-page').style.display='none';">Community</a> </li>
+                <li> <a href="https://github.com/TiM-SyStEm/Special-Key-SPS/releases" target="_blank">Try  Special Key</a> </li>
+                <li> <a href="https://github.com/TiM-SyStEm/Special-Key-SPS/wiki" target="_blank">Docs</a> </li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <div>
+        <div id="main-page">
             <div class="special-key-logo" align="center">
                 <img src="assets/icon.png" class="main-logo" alt="">
             </div>
@@ -31,8 +30,18 @@
                 </h4>
             </div>
         </div>
+        <div id="community-page" style="display: none;">
+            <div class="community" align="center">
+                <h1>
+                    Community
+                </h1>
+                <p></p>
+                <h4 class="about-community">
+                    Community text
+                </h4>
+            </div>
+        </div>
     </main>
-
     <footer>
         <div align="center" class="footer-text">
             2022 &copy; TiM-SyStEm
