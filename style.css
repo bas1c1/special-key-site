@@ -92,8 +92,8 @@ main {
 
 .main-logo{
     display: flex;
-    width: 500px;
-    height: 150px;
+    max-width: 40%;
+    object-fit: contain;
 }
 
 footer{
